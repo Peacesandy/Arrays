@@ -13,3 +13,11 @@ const removedElementFirst = languages.shift();
 languages.push("Go", "Rust")
 
 console.log(languages)
+
+
+let fruit = ['apple', 'mango', 'banana'];
+		function changeFruit( fruit ) {
+    			fruit[2] = "orange";
+    			return fruit;
+		}
+console.log()
