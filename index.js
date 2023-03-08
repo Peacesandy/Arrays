@@ -39,4 +39,14 @@ let arr = [10, 32, 45, 90, 98];
 
 	console.log(largest(arr))
 
-		
+		// Question 5
+
+		function valTimesIndex(my_array){
+			my_array.map( function (arr, index) {
+				let result = arr * index
+				console.log(result)
+			})
+		}
+
+		let indexMultiple = valTimesIndex([1, 1, 1, 1])
+		console.log(indexMultiple)
